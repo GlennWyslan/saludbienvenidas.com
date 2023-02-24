@@ -79,7 +79,26 @@
 	<div class="container">
 		
 		<!-- Headline !-->
-	
+			<div class="row">
+			<div class="col-md-12 col-lg-12 col-sm-12">				
+				<h2><i>SENCILLO TÓNICO MATUTINO QUE QUEIMA</i> <br>-31 KG DE GRASA HASTA <span id="month">45 dias</span>
+					
+					<!-- Script que mostra o póximo mês !-->
+					<script>
+					   var d = new Date();
+					   var nextMonth = new Date(d.getFullYear(), d.getMonth() + 1, 1);
+					   var monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", 
+										 "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+					];
+					   var nextMonthName = monthNames[nextMonth.getMonth()];
+
+					   document.getElementById("month").innerHTML = " " + nextMonthName;
+					</script>
+					<!-- Script que mostra o póximo mês !-->
+					
+				</h2>
+			</div>
+		</div>
 		<!-- Headline !-->
 		
 		<!-- VSL !-->
